@@ -34,6 +34,7 @@ public class StudentController {
     public String list(Model m) {
         List<Student> list = service.getAllStudent();
         m.addAttribute("data", list);
+       System.out.println("git project change successfully ");
         return "list";
     }
 }
