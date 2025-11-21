@@ -10,6 +10,7 @@ public class StudentApplication {
 		SpringApplication.run(StudentApplication.class, args);
 		 System.out.println("git project change successfully ");
 		 System.out.println("dhapa");
+		 System.out.println("after change the project for teaching github");
 	}
 
 }
